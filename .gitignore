@@ -1,0 +1,17 @@
+/out/
+/roms/
+/Roms/
+/3ds/
+/qa/
+__pycache__/
+*.pyc
+*.zip
+*.3dsx
+*.elf
+*.chd
+*.key
+*.cdc
+*.ctm
+*.wav
+*.sav
+*.nv

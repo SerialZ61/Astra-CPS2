@@ -1,0 +1,9 @@
+; The host supplies clip-space position (already rotated for the 3DS LCD)
+; and texture coordinates as two attributes of the four screen vertices.
+.out positionOut position
+.out texcoordOut texcoord0
+.proc main
+    mov positionOut, v0
+    mov texcoordOut, v1
+    end
+.end
